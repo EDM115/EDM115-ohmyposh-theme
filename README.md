@@ -69,6 +69,10 @@ But after seing the work of [thecodermehedi](https://github.com/thecodermehedi/d
 
 ![Git workflow](./git.png)  
 
+### Root status (in oneline)
+
+![root status](./root.png)  
+
 ---
 
 ## Attribution :
