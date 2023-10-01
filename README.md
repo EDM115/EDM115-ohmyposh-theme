@@ -73,5 +73,5 @@ But after seing the work of [thecodermehedi](https://github.com/thecodermehedi/d
 
 ## Attribution :
 
-These themes are licenced under the MIT License
+These themes are licenced under the MIT License  
 Also, feel free to edit them, change colors, icons, modules, ...
