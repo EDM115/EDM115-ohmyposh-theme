@@ -65,6 +65,10 @@ But after seing the work of [thecodermehedi](https://github.com/thecodermehedi/d
 
 ![EDM115-newline.omp.json](./newline.png)  
 
+### Demo of a basic git workflow (in oneline)
+
+![Git workflow](./git.png)  
+
 ---
 
 ## Attribution :
