@@ -1,0 +1,18 @@
+repo_name: EDM115/EDM115-ohmyposh-theme
+report_id: cd469e71b6a9e4fcb9bfd0de05d4e3d7
+repo_type: Public
+timestamp: '2023-12-14T09:43:45+00:00'
+requested_by: EDM115
+provider: github
+branch: master
+detected_tools_count: 1
+tools:
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
