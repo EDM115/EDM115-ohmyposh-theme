@@ -1,16 +1,20 @@
 # EDM115-ohmyposh-theme
 
-### My very own Oh My Posh theme
+## My very own Oh My Posh theme
 
 ---
 
-## Usage (for PowerShell) :
+## Installation :
 
 - Install [Oh My Posh](https://ohmyposh.dev/) (read the docs)
 - Install a [Nerd Font](https://github.com/ryanoasis/nerd-fonts/)
 - Set the font as default in your terminal ([tutorial by TroubleChute](https://www.youtube.com/watch?v=-G6GbXGo4wo))
+
+### Windows (PowerShell)
+
 - Add my themes in the themes folder (defaults to `%LOCALAPPDATA%\Programs\oh-my-posh\themes`)
 - Edit your PowerShell profile script (`notepad $PROFILE`) and add this :
+
 ```powershell
 $ErrorActionPreference = "SilentlyContinue"
 Write-Host "PowerShell $($PSVersionTable.PSVersion.Major).$($PSVersionTable.PSVersion.Minor).$($PSVersionTable.PSVersion.Patch)"
@@ -20,14 +24,27 @@ $ErrorActionPreference = "Continue"
 oh-my-posh init pwsh --config 'C:\Users\EDM115\AppData\Local\Programs\oh-my-posh\themes\EDM115.omp.json' | Invoke-Expression
 
 ```
-Obviously change the config path, and the name depending of the theme you want
+
+Obviously change the config path, and the name depending of the theme you want. The first 3 lines have to be at the very top, as they will suppress the annoying "theme took xx ms to load" message.
+
+### Linux (Zsh)
+
+- Add my themes in the themes folder (defaults to `~/.local/share/oh-my-posh/themes`)
+- Edit your Zsh profile script (`nano ~/.zshrc`) and add this :
+
+```bash
+# Oh My Posh
+eval "$(oh-my-posh --init --shell zsh --config ~/.local/share/oh-my-posh/themes/EDM115.omp.json)"
+```
+
+You can change the config path, and the name depending of the theme you want.
 
 ---
 
 ## Properties
 
 - Both themes uses the [Dracula](https://draculatheme.com/) color scheme
-- Included segments :
+- Included segments (in order) :
   - session
   - root
   - os
@@ -53,25 +70,25 @@ Obviously change the config path, and the name depending of the theme you want
 
 The main theme I made is `EDM115.omp.json`  
 It features all elements I wanted and is clean  
-But after seing the work of [thecodermehedi](https://github.com/thecodermehedi/dualsimplicity-ohmyposh-theme) and [RainbowCreamPie](https://github.com/RainbowCreamPie/vietnam-omp-theme), I decided to create `EDM115-newline.omp.json`, which skips a line and shows unessential modules rounded on the right  
+But after seing the work of [thecodermehedi](https://github.com/thecodermehedi/dualsimplicity-ohmyposh-theme) and [RainbowCreamPie](https://github.com/RainbowCreamPie/vietnam-omp-theme), I decided to create `EDM115-newline.omp.json`, which skips a line and shows unessential modules rounded on the right
 
 ## Preview :
 
 ### EDM115 OneLine
 
-![EDM115.omp.json](./oneline.png)  
+![EDM115.omp.json](./oneline.png)
 
 ### EDM115 NewLine
 
-![EDM115-newline.omp.json](./newline.png)  
+![EDM115-newline.omp.json](./newline.png)
 
 ### Demo of a basic git workflow (in oneline)
 
-![Git workflow](./git.png)  
+![Git workflow](./git.png)
 
 ### Root status (in oneline)
 
-![root status](./root.png)  
+![root status](./root.png)
 
 ---
 
