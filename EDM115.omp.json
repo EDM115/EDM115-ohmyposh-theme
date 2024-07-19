@@ -124,6 +124,13 @@
       ]
     }
   ],
+  "disable_notice": true,
   "final_space": true,
+  "patch_pwsh_bleed": true,
+  "secondary_prompt": {
+    "background": "transparent",
+    "foreground": "#44475a",
+    "template": "\ue0b6\ue0b0 "
+  },
   "version": 2
 }

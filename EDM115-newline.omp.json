@@ -164,6 +164,13 @@
       "type": "prompt"
     }
   ],
+  "disable_notice": true,
   "final_space": true,
+  "patch_pwsh_bleed": true,
+  "secondary_prompt": {
+    "background": "transparent",
+    "foreground": "#f8f8f2",
+    "template": "    \u276f "
+  },
   "version": 2
 }
