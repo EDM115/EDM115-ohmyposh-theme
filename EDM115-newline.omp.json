@@ -176,7 +176,7 @@
     "background": "transparent",
     "foreground": "#f8f8f2",
     "newline": true,
-    "template": "   \u276f\u276f {{ .AbsolutePWD }} \n    \u276f "
+    "template": "   \u276f\u276f {{ .AbsolutePWD }}\n    \u276f "
   },
   "version": 2
 }

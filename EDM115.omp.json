@@ -136,7 +136,7 @@
     "background": "transparent",
     "foreground": "#f8f8f2",
     "newline": true,
-    "template": " \ue0b0\ue0b0 {{ .AbsolutePWD }} \n \ue0b6\ue0b0 "
+    "template": "\ue0b0\ue0b0 {{ .AbsolutePWD }}\n\ue0b6\ue0b0 "
   },
   "version": 2
 }
