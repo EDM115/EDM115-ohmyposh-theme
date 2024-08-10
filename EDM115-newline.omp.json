@@ -41,7 +41,7 @@
           "trailing_diamond": "\ue0b4",
           "background": "#bd93f9",
           "foreground": "#282a36",
-          "template": " \uea83 {{ path .Path .Location }}",
+          "template": " \udb80\ude56 {{ path .Path .Location }}",
           "properties": {
             "style": "full"
           }
@@ -88,6 +88,7 @@
             "branch_icon": "",
             "fetch_status": true,
             "fetch_upstream_icon": true,
+            "full_branch_path": true,
             "display_changing_color": true
           }
         },
@@ -96,36 +97,44 @@
           "style": "diamond",
           "leading_diamond": "\ue0b6",
           "trailing_diamond": "\ue0b4",
-          "template": "\ue718 {{ if .PackageManagerIcon }}{{ .PackageManagerIcon }} {{ end }}{{ .Full }}",
+          "template": "\ue718 {{ .Full }}",
           "background": "#50fa7b",
-          "foreground": "#282a36"
+          "foreground": "#282a36",
+          "properties": {
+            "cache_version": true
+          }
         },
         {
           "type": "npm",
           "style": "diamond",
           "leading_diamond": "\ue0b6",
           "trailing_diamond": "\ue0b4",
-          "template": "\ue71e  {{ .Full }}",
+          "template": "\ue71e {{ .Full }}",
           "background": "#ff5555",
-          "foreground": "#282a36"
+          "foreground": "#282a36",
+          "properties": {
+            "cache_version": true,
+            "display_mode": "files",
+            "extensions": [
+              "package-lock.json"
+            ]
+          }
         },
         {
-          "type": "java",
+          "type": "pnpm",
           "style": "diamond",
           "leading_diamond": "\ue0b6",
           "trailing_diamond": "\ue0b4",
-          "template": "\ue738 {{ .Full }}",
-          "background": "#ff79c6",
-          "foreground": "#282a36"
-        },
-        {
-          "type": "php",
-          "style": "diamond",
-          "leading_diamond": "\ue0b6",
-          "trailing_diamond": "\ue0b4",
-          "template": "\ue73d {{ .Full }}",
-          "background": "#6272a4",
-          "foreground": "#282a36"
+          "template": "\udb80\udec1 {{ .Full }}",
+          "background": "#ffb86c",
+          "foreground": "#282a36",
+          "properties": {
+            "cache_version": true,
+            "display_mode": "files",
+            "extensions": [
+              "pnpm-lock.yaml"
+            ]
+          }
         },
         {
           "type": "python",
@@ -136,7 +145,44 @@
           "foreground": "#282a36",
           "template": "\ue73c {{ .Full }}",
           "properties": {
+            "cache_version": true,
             "display_mode": "files"
+          }
+        },
+        {
+          "type": "java",
+          "style": "diamond",
+          "leading_diamond": "\ue0b6",
+          "trailing_diamond": "\ue0b4",
+          "template": "\ue738 {{ .Full }}",
+          "background": "#ff79c6",
+          "foreground": "#282a36",
+          "properties": {
+            "cache_version": true
+          }
+        },
+        {
+          "type": "docker",
+          "style": "diamond",
+          "leading_diamond": "\ue0b6",
+          "trailing_diamond": "\ue0b4",
+          "template": "\uf308 {{ .Context }}",
+          "background": "#8be9fd",
+          "foreground": "#282a36",
+          "properties": {
+            "cache_version": true
+          }
+        },
+        {
+          "type": "php",
+          "style": "diamond",
+          "leading_diamond": "\ue0b6",
+          "trailing_diamond": "\ue0b4",
+          "template": "\ue73d {{ .Full }}",
+          "background": "#6272a4",
+          "foreground": "#f8f8f2",
+          "properties": {
+            "cache_version": true
           }
         }
       ]
@@ -147,17 +193,11 @@
       "segments": [
         {
           "foreground": "#f8f8f2",
-          "style": "plain",
-          "template": "\u2570\u2500",
-          "type": "text"
-        },
-        {
-          "foreground": "#f8f8f2",
           "properties": {
             "always_enabled": true
           },
           "style": "diamond",
-          "template": " \u276f\u276f",
+          "template": "\u2570\u2500 \u276f\u276f",
           "type": "text"
         }
       ],
