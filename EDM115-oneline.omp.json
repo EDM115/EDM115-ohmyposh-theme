@@ -33,7 +33,7 @@
           "background": "#bd93f9",
           "foreground": "#282a36",
           "powerline_symbol": "\ue0b0",
-          "properties": {
+          "options": {
             "style": "full"
           },
           "style": "powerline",
@@ -44,7 +44,7 @@
           "background": "#ffb86c",
           "foreground": "#282a36",
           "powerline_symbol": "\ue0b0",
-          "properties": {
+          "options": {
             "branch_icon": "",
             "fetch_status": true,
             "fetch_upstream_icon": true
@@ -57,7 +57,7 @@
           "background": "#50fa7b",
           "foreground": "#282a36",
           "powerline_symbol": "\ue0b0",
-          "properties": {
+          "options": {
             "cache_duration": "2h"
           },
           "style": "powerline",
@@ -68,7 +68,7 @@
           "background": "#ff5555",
           "foreground": "#282a36",
           "powerline_symbol": "\ue0b0",
-          "properties": {
+          "options": {
             "cache_duration": "2h",
             "display_mode": "files",
             "extensions": [
@@ -83,7 +83,7 @@
           "background": "#ffb86c",
           "foreground": "#282a36",
           "powerline_symbol": "\ue0b0",
-          "properties": {
+          "options": {
             "cache_duration": "2h",
             "display_mode": "files",
             "extensions": [
@@ -98,7 +98,7 @@
           "background": "#50fa7b",
           "foreground": "#282a36",
           "powerline_symbol": "\ue0b0",
-          "properties": {
+          "options": {
             "cache_duration": "2h",
             "display_mode": "files"
           },
@@ -110,7 +110,7 @@
           "background": "#ff79c6",
           "foreground": "#282a36",
           "powerline_symbol": "\ue0b0",
-          "properties": {
+          "options": {
             "cache_duration": "2h"
           },
           "style": "powerline",
@@ -121,7 +121,7 @@
           "background": "#8be9fd",
           "foreground": "#282a36",
           "powerline_symbol": "\ue0b0",
-          "properties": {
+          "options": {
             "cache_duration": "2h",
             "display_mode": "files"
           },
@@ -133,7 +133,7 @@
           "background": "#6272a4",
           "foreground": "#f8f8f2",
           "powerline_symbol": "\ue0b0",
-          "properties": {
+          "options": {
             "cache_duration": "2h"
           },
           "style": "powerline",
@@ -144,7 +144,7 @@
           "background": "#f1fa8c",
           "foreground": "#282a36",
           "powerline_symbol": "\ue0b0",
-          "properties": {
+          "options": {
             "time_format": "15:04:05"
           },
           "style": "powerline",
@@ -154,7 +154,7 @@
         {
           "background": "#f1fa8c",
           "foreground": "#282a36",
-          "properties": {
+          "options": {
             "always_enabled": true,
             "style": "austin",
             "threshold": 500
@@ -176,6 +176,7 @@
     "foreground": "#f8f8f2",
     "template": "  \uf054  "
   },
+  "shell_integration": true,
   "transient_prompt": {
     "background": "transparent",
     "foreground": "#f8f8f2",
@@ -188,5 +189,5 @@
     "notice": false,
     "source": "cdn"
   },
-  "version": 3
+  "version": 4
 }
