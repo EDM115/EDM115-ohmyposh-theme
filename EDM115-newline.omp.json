@@ -99,7 +99,7 @@
             "cache_duration": "2h"
           },
           "style": "diamond",
-          "template": "\ue718 {{ .Full }}",
+          "template": "\ued0d {{ .Full }}",
           "trailing_diamond": "\ue0b4",
           "type": "node"
         },
@@ -131,9 +131,59 @@
             ]
           },
           "style": "diamond",
-          "template": "\udb80\udec1 {{ .Full }}",
+          "template": "\ue865 {{ .Full }}",
           "trailing_diamond": "\ue0b4",
           "type": "pnpm"
+        },
+        {
+          "background": "#ff79c6",
+          "foreground": "#282a36",
+          "leading_diamond": "\ue0b6",
+          "options": {
+            "cache_duration": "2h",
+            "display_mode": "files",
+            "extensions": [
+              "bun.lockb",
+              "bun.lock"
+            ]
+          },
+          "style": "diamond",
+          "template": "\ue76f {{ .Full }}",
+          "trailing_diamond": "\ue0b4",
+          "type": "bun"
+        },
+        {
+          "background": "#50fa7b",
+          "foreground": "#282a36",
+          "leading_diamond": "\ue0b6",
+          "options": {
+            "cache_duration": "2h",
+            "display_mode": "files",
+            "extensions": [
+              "deno.json",
+              "deno.jsonc"
+            ]
+          },
+          "style": "diamond",
+          "template": "\ue7c0 {{ .Full }}",
+          "trailing_diamond": "\ue0b4",
+          "type": "deno"
+        },
+        {
+          "background": "#50fa7b",
+          "foreground": "#282a36",
+          "leading_diamond": "\ue0b6",
+          "options": {
+            "cache_duration": "2h",
+            "display_mode": "files",
+            "extensions": [
+              "yarn.lock"
+            ]
+          },
+          "style": "diamond",
+          "template": "\ue8ec {{ .Full }}",
+          "trailing_diamond": "\ue0b4",
+          "type": "yarn"
         },
         {
           "background": "#50fa7b",
@@ -161,6 +211,42 @@
           "type": "java"
         },
         {
+          "background": "#6272a4",
+          "foreground": "#f8f8f2",
+          "leading_diamond": "\ue0b6",
+          "options": {
+            "cache_duration": "2h"
+          },
+          "style": "diamond",
+          "template": "\ue826 {{ .Full }}",
+          "trailing_diamond": "\ue0b4",
+          "type": "lua"
+        },
+        {
+          "background": "#ffb86c",
+          "foreground": "#282a36",
+          "leading_diamond": "\ue0b6",
+          "options": {
+            "cache_duration": "2h"
+          },
+          "style": "diamond",
+          "template": "\ue7a8 {{ .Full }}",
+          "trailing_diamond": "\ue0b4",
+          "type": "rust"
+        },
+        {
+          "background": "#ffb86c",
+          "foreground": "#282a36",
+          "leading_diamond": "\ue0b6",
+          "options": {
+            "cache_duration": "2h"
+          },
+          "style": "diamond",
+          "template": "\ue8ef {{ .Full }}",
+          "trailing_diamond": "\ue0b4",
+          "type": "zig"
+        },
+        {
           "background": "#8be9fd",
           "foreground": "#282a36",
           "leading_diamond": "\ue0b6",
@@ -168,7 +254,7 @@
             "display_mode": "files"
           },
           "style": "diamond",
-          "template": "\uf308 {{ .Context }}",
+          "template": "\ue7b0 {{ .Context }}",
           "trailing_diamond": "\ue0b4",
           "type": "docker"
         },
